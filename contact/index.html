@@ -76,18 +76,16 @@
                                     <ul class="navigation clearfix">
                                         <li class="active"><a href="../">Home</a>
                                         </li>
-                                        <li><a href="#">About Us</a>
+                                        <li><a href="../about">About Us</a>
                                         </li>
-                                        <li><a href="#">Holidays</a>
-                                        </li>
-                                        <li><a href="/visa">Visa</a></li>
+                                        <li><a href="../visas">Visa</a></li>
                                         <li class="dropdown"><a href="#">Others</a>
                                             <ul>
                                                 <li><a href="#">Ok to Board</a></li>
                                                 <li><a href="#">Umrah</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Contact us</a></li>
+                                        <li><a href="../contact/">Contact us</a></li>
                                     </ul>
                                 </nav>
                                 <!-- Main Menu End-->
@@ -160,20 +158,20 @@
                 <!-- .Side-menu -->
                 <div class="side-menu">
                     <ul class="navigation clearfix">
-                        <li class="active"><a href="../Fineway travels/">Home</a>
+                        <li class="active"><a href="../">Home</a>
                         </li>
-                        <li><a href="#">About Us</a>
+                        <li><a href="../about">About Us</a>
                         </li>
                         <li><a href="#">Holidays</a>
                         </li>
-                        <li><a href="/visa">Visa</a></li>
+                        <li><a href="../visas">Visa</a></li>
                         <li class="dropdown"><a href="#">Others</a>
                             <ul>
-                                <li><a href="#">Ok to Board</a></li>
+                                <li><a href="../ok-to-board">Ok to Board</a></li>
                                 <li><a href="#">Umrah</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Contact us</a></li>
+                        <li><a href="../contact/">Contact us</a></li>
                     </ul>
                 </div><!-- /.Side-menu -->
 
@@ -190,7 +188,7 @@
                     <h2>Contact</h2>
                     <div class="bread-crumb">
                         <ul class="clearfix">
-                            <li><span class="icon-home fa fa-home"></span><a href="index.html">Home</a></li>
+                            <li><span class="icon-home fa fa-home"></span><a href="../">Home</a></li>
                             <li class="current">Contact</li>
                         </ul>
                     </div>
@@ -268,44 +266,53 @@
                 </div>
                 <div class="form-box site-form">
                     <div class="contact-form">
-                        <form method="post" action="contact.html">
+                        <form id="submit-to-google-sheet" name="submit-to-google-sheet">
                             <div class="row clearfix">
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                     <div class="f-label">Your Name <i>*</i></div>
                                     <div class="field-inner">
-                                        <input type="text" name="fieldname" value="" placeholder="" required>
+                                        <input type="text" name="name" value="" placeholder="" required>
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                     <div class="f-label">Your Email <i>*</i></div>
                                     <div class="field-inner">
-                                        <input type="email" name="fieldname" value="" placeholder="" required>
+                                        <input type="email" name="email" value="" placeholder="" required>
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                     <div class="f-label">Your Phone <i>*</i></div>
                                     <div class="field-inner">
-                                        <input type="text" name="fieldname" value="" placeholder="" required>
+                                        <input type="text" name="phone" value="" placeholder="" required>
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-6 col-md-6 col-sm-12">
                                     <div class="f-label">Your Subject <i>*</i></div>
                                     <div class="field-inner">
-                                        <input type="text" name="fieldname" value="" placeholder="" required>
+                                        <input type="text" name="subject" value="" placeholder="" required>
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                     <div class="f-label">Write Message</div>
                                     <div class="field-inner">
-                                        <textarea name="fieldname" placeholder=""></textarea>
+                                        <textarea name="message" placeholder=""></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
                                     <button type="submit" class="theme-btn btn-style-two"><span>Submit Now<i
                                                 class="icon far fa-angle-right"></i></span></button>
+
                                 </div>
                             </div>
                         </form>
+                        <div style="display:none; center;font-size: xx-large;font-weight: bolder; margin-bottom: 20px"
+                            id="sending-message">
+                            Please wait, Your message is being sent...
+                        </div>
+                        <div style="display:none; center;font-size: xx-large;font-weight: bolder; margin-bottom: 20px"
+                            id="success-message">
+                            Your message has been sent. Thank you!
+                        </div>
                     </div>
                 </div>
             </div>
@@ -366,7 +373,8 @@
                                 <!--Block-->
                                 <div class="accordion block active-block">
                                     <div class="acc-btn active">Locate Our Office <i
-                                            class="fa-regular fa-angle-down"></i></div>
+                                            class="fa-regular fa-angle-down"></i>
+                                    </div>
                                     <div class="acc-content">
                                         <div class="content">
                                             <div class="text">Curious about our location? Journey to Fineway Travels,
@@ -390,7 +398,8 @@
                                 <!--Block-->
                                 <div class="accordion block">
                                     <div class="acc-btn">How can I apply for a visa?<i
-                                            class="fa-regular fa-angle-down"></i></div>
+                                            class="fa-regular fa-angle-down"></i>
+                                    </div>
                                     <div class="acc-content">
                                         <div class="content">
                                             <div class="text">Applying for a visa with Fineway Travels is easy! Visit
@@ -461,6 +470,31 @@
     <script src="../js/owl.js"></script>
     <script src="../js/wow.js"></script>
     <script src="../js/custom-script.js"></script>
+    <script>
+        var scriptURL = 'https://script.google.com/macros/s/AKfycbwQHS6mUM35nRtOjwdVN6fP3t6bWGoyIDLZEoEHZEA5JjOkJQshHtrOUFmwgbOzMhyI6A/exec'
+        var form = document.forms['submit-to-google-sheet']
+        var successMessage = document.getElementById('success-message');
+        var sendingMessage = document.getElementById('sending-message');
+        var formId = document.getElementById('submit-to-google-sheet');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault()
+            form.style.display = 'none'; // hide the form immediately
+            sendingMessage.style.display = 'block'; // show the sending message
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(function (response) {
+                    console.log('Success!', response)
+                    sendingMessage.style.display = 'none';
+                    formId.style.display = 'none'; // hide the sending message
+                    successMessage.style.display = 'block'; // show the success message
+                })
+                .catch(function (error) {
+                    console.error('Error!', error.message)
+                    form.style.display = 'block'; // show the form again in case of error
+                    sendingMessage.style.display = 'none'; // hide the sending message
+                })
+        })
+    </script>
 </body>
 
 </html>

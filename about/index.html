@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FineWay Travel | Visa</title>
+    <title>FineWay Travel | About</title>
     <!-- Stylesheets -->
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
@@ -73,9 +73,9 @@
                             <div class="nav-outer clearfix">
                                 <nav class="main-menu">
                                     <ul class="navigation clearfix">
-                                        <li class="active"><a href="../">Home</a>
+                                        <li><a href="../">Home</a>
                                         </li>
-                                        <li><a href="#">About Us</a>
+                                        <li class="current"><a href="#">About Us</a>
                                         </li>
                                         <li><a href="#">Holidays</a>
                                         </li>
@@ -159,9 +159,9 @@
                 <!-- .Side-menu -->
                 <div class="side-menu">
                     <ul class="navigation clearfix">
-                        <li class="active"><a href="../Fineway travels/">Home</a>
+                        <li><a href="../Fineway travels/">Home</a>
                         </li>
-                        <li><a href="#">About Us</a>
+                        <li class="current"><a href="#">About Us</a>
                         </li>
                         <li><a href="#">Holidays</a>
                         </li>
@@ -181,10 +181,119 @@
         </section>
         <!-- / Hidden Bar -->
 
-
+        <div class="cart-backdrop"></div>
+        <!--Cart Sidebar-->
+        <div class="cart-sidebar">
+            <div class="cart-side-inner">
+                <div class="cart-side-header">
+                    <div class="closer-btn"><span>Close</span></div>
+                    <h5>Shopping Cart</h5>
+                </div>
+                <div class="prod-box">
+                    <div class="prod-block">
+                        <div class="prod-inner">
+                            <div class="prod-thumb"><a href="#"><img src="../images/resource/shop/shop-thumb-1.jpg"
+                                        alt=""></a></div>
+                            <div class="remove-item"><a href="#"><i class="far fa-times"></i></a></div>
+                            <div class="prod-title"><a href="#">Smart Air Bag Travel</a></div>
+                            <div class="quantity-box">
+                                <div class="item-quantity">
+                                    <input class="qty-spinner" type="text" value="1" name="quantity">
+                                </div>
+                            </div>
+                            <div class="calculations">1 x <span>$225.00</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower-content">
+                <div class="count clearfix">
+                    <span class="ttl">Subtotal</span>
+                    <span class="dtl">$225.00</span>
+                </div>
+                <div class="links clearfix">
+                    <div class="left"><a href="#" class="theme-btn btn-style-one"><span>View Cart</span></a></div>
+                    <div class="right"><a href="#" class="theme-btn btn-style-two"><span>Checkout</span></a></div>
+                </div>
+            </div>
+        </div>
 
         <!-- Banner Section -->
-        <section id="contentContainer"></section>
+        <section class="inner-banner">
+            <div class="image-layer" style="background-image: url(../images/travel/about-us.jpg);"></div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h2>ABOUT US</h2>
+                    <div class="bread-crumb">
+                        <ul class="clearfix">
+                            <li><span class="icon-home fa fa-home"></span><a href="index.html">Home</a></li>
+                            <li class="current">About Us</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Banner Section -->
+
+        <!--About Us Section-->
+        <section class="about-three">
+            <div class="floated-icon right"><img src="../images/resource/hills-image.svg" alt="" title=""></div>
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <!--Text Col-->
+                    <div class="text-col col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
+                            <h2>World Best Travel Agency</h2>
+                            <div class="text upper-text">Since 2014, we’ve helped more than 500,000 people of all ages
+                                enjoy the best outdoor experience of their lives. Whether it’s for one day or a two-week
+                                vacation, close to home or a foreign land.</div>
+                            <div class="f-blocks clearfix">
+                                <div class="f-block">
+                                    <div class="inner-box">
+                                        <div class="icon"><img src="../images/resource/about-icon-1.svg" alt=""
+                                                title="">
+                                        </div>
+                                        <h6>Expert Team for Support</h6>
+                                    </div>
+                                </div>
+                                <div class="f-block">
+                                    <div class="inner-box">
+                                        <div class="icon"><img src="../images/resource/about-icon-2.svg" alt=""
+                                                title="">
+                                        </div>
+                                        <h6>Urgent Support for Client</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quote-box">
+                                <div class="quote">"Since 2014, we’ve helped more than 500,000 people of all ages enjoy
+                                    the best outdoor experience of their lives."</div>
+                                <div class="quote-info clearfix">
+                                    <div class="image"><img src="../images/resource/about-thumb-1.jpg" alt="" title="">
+                                    </div>
+                                    <div class="info">
+                                        <span class="name">Jonathon bLIL</span>
+                                        <span class="designation">Founder of treker</span>
+                                    </div>
+                                    <div class="signature"><img src="../images/resource/signature-1.png" alt=""
+                                            title="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Image Col-->
+                    <div class="image-col col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
+                            <div class="image-box">
+                                <img src="../images/resource/about-image-3.svg" alt="" title="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
         <!--Main Footer-->
@@ -234,16 +343,11 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/jquery-ui.js"></script>
     <script src="../js/jquery.fancybox.js"></script>
-
-
-
     <script src="../js/bxslider.js"></script>
     <script src="../js/touchspin.js"></script>
     <script src="../js/owl.js"></script>
     <script src="../js/wow.js"></script>
-    <script src="../js/country-script.js"></script>
     <script src="../js/custom-script.js"></script>
-
 </body>
 
 </html>

@@ -1,0 +1,40 @@
+{
+    "Country": "AUSTRALIA VISA",
+    "Official_Name": "Austria Visa - Schengen",
+    "Country_Description": "<b>Austria</b>, officially the Republic of Austria, is a landlocked East Alpine country in the southern part of Central Europe. It is composed of nine federated states, one of which is Vienna, Austria's capital and largest city. Austria is famous for its castles, palaces and buildings, among other architectural works.",
+    "Required_Documents": [
+        "The passport must be valid for at least six months after your intended departure from Schengen States",
+        "UAE residence visa should be valid for 03 months from the date of return from Schengen",
+        "Recent passport photographs showing full face on a clear white background (35 mm X 45 mm)",
+        "Original personal bank account statement for the last six months signed and stamped by the bank",
+        "NOC Letter from the company (should be mentioned designation, date of joining & salary paid)",
+        "Sponsored family members have to enclose a copy of original birth and marriage certificate"
+    ],
+    "Supporting_Documents": {
+        "Tourism": [
+            "Hotel booking reservation/s confirming the duration of stay",
+            "Travel itinerary such as airline bookings/tickets showing departure dates and destinations",
+            "Travel & medical insurance"
+        ],
+        "Visiting family and/or friends": [
+            "Invitation letter from the host in Australia",
+            "If visiting family: Copy of passport and Residence proof in Australia",
+            "A covering letter outlining the reason for your travel to Australia"
+        ],
+        "Business/Conference or Training for a Company": [
+            "Invitation letter from the company in Australia"
+        ]
+    },
+    "Fineway_Assistance": [
+        "Detailed guidance with documentation that will reduce the chances of rejection",
+        "Filing of Visa Application Form",
+        "Make an appointment to submit your documents at the appropriate visa application center",
+        "Making arrangements for flight and hotel booking (Only for visa purpose)",
+        "One-to-one attention from a dedicated staff member who will guide you through the entire application procedure"
+    ],
+    "General_Conditions": [
+        "Your passport must be valid for at least another 6 months and have at least two blank visa pages",
+        "Embassy reserves the right to ask for further documents if required",
+        "Visa fees are not refundable"
+    ]
+}

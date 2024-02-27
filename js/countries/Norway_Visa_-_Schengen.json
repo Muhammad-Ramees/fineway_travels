@@ -1,0 +1,39 @@
+{
+    "Country": "Norway Visa - Schengen",
+    "Official_Name": "Norway Visa - Schengen",
+    "Country_Description": "<b>Norway</b> is a narrow country in northern Europe. It shares the Scandinavian Peninsula with Sweden and Finland. Oslo, the capital, is a city of green spaces and museums. Preserved 9th-century Viking ships are displayed at Oslo’s Viking Ship Museum. Norway's coastline is famous for its fjords (fyords), which are sea inlets between steep cliffs. The fjords were carved out by glaciers, as were the country's mountains.",
+    "Required_Documents": [
+        "Your passport valid for at least 6 months beyond the return date is required. Your passport must have at least two blank pages",
+        "One passport photo not older than six months",
+        "Copy of UAE Residence Visa valid at least 90 days from the intended return date",
+        "Original personal bank account statement for the last three months signed and stamped by the bank",
+        "NOC Letter from the company (should mention designation, date of joining & salary paid)"
+    ],
+    "Supporting_Documents": {
+        "For Tourism": [
+            "Proof of accommodation (i.e. valid and existing hotel booking, etc.)",
+            "Proof of flight ticket booking or flight reservation including return",
+            "International health insurance covering the entire territory of all Schengen member states with a minimum coverage of € 30.000",
+            "Sponsored family members (spouses, students etc.) have to enclose a copy of original birth and marriage certificate including an English translation",
+            "Employment Labor Contract / agreement"
+        ],
+        "For Visiting family and/or friends": [
+            " Invitation letter stating the purpose and length of the visit, the relation between the applicant and the inviting party/reference and who will bear the travel and living costs"
+        ],
+        "If Business": [
+            "Official invitation letter from the Norwegian company or organization with their contact details, including information regarding what activities will be performed"
+        ]
+    },
+    "Fineway_Assistance": [
+        "Detailed guidance with documentation that will reduce the chances of rejection",
+        "Filing of Visa Application Form",
+        "Make an appointment to submit your documents at the appropriate visa application center",
+        "Making arrangements for flight and hotel booking (Only for visa purpose)",
+        "One-to-one attention from a dedicated staff member who will guide you through the entire application procedure"
+    ],
+    "General_Conditions": [
+        "Please reach 15 minutes prior to the appointment at the respective Visa Application Center",
+        "Visa fees are nonrefundable in any cases once applied",
+        "All the documents should be translated to English"
+    ]
+}
