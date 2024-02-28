@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     } else {
       // If there's a hash, fetch and show details for the selected country
-      fetch(`../js/countries/${hash.toLowerCase()}.json`)
+      fetch(`/js/countries/${hash}.json`)
         .then(response => response.json())
         .then(data => {
           contentContainer.innerHTML = `
