@@ -1,0 +1,40 @@
+{
+    "Country": "Finland Visa - Schengen",
+    "Official_Name": "Finland Visa - Schengen",
+    "Country_Description": "<p><b>Finland </b> is a Nordic country bordered by Sweden, Norway, and Russia. Helsinki, the capital, is situated on a peninsula with surrounding islands in the Baltic Sea. The 18th-century coastal fortification Suomenlinna, the trendy Design District, and a variety of museums can all be found in Helsinki. The Northern Lights can be viewed in the Arctic Lapland province of Finland, which is a large wilderness including national parks and ski resorts.</p>",
+    "Required_Documents": [
+        "Your passport valid for at least 6 months beyond return date are required. Your passport must have at least two blank pages",
+        "Recent color passport photograph (35–40mm in width), no more than 6-months old",
+        "UAE residence permit must be valid for three months after the departure from the Schengen area",
+        "Original personal bank account statement for the last three months signed and stamped by the bank",
+        "NOC Letter from the company (should be mentioned designation, date of joining & salary paid)",
+        "Sponsored family members (spouses, students etc.) have to enclose a copy of original birth and marriage certificate"
+      ],
+    "Supporting_Documents": {
+        "For Tourism": [
+            "Proof of accommodation (i.e. valid and existing hotel booking, etc.)",
+            "Proof of flight ticket booking or flight reservation including return",
+            "International health insurance covering the entire territory of all Schengen member states with a minimum coverage of € 30.000"
+          ],
+        "For Visiting family and/or friends": [
+            "Invitation letter signed by the host",
+            "Copy of host’s passport",
+            "Host’s Residence Permit"
+          ],
+        "For Business": [
+        "    Invitation letter from the company or business partner in Finland"
+        ]
+    },
+    "Fineway_Assistance": [
+        "Detailed guidance with documentation that will reduce the chances of rejection",
+        "Filing of Visa Application Form",
+        "Make an appointment to submit your documents at the appropriate visa application center",
+        "Making arrangements for flight and hotel booking (Only for visa purpose)",
+        "One-to-one attention from a dedicated staff member who will guide you through the entire application procedure"
+    ],
+    "General_Conditions": [
+        "Please reach 15 minutes prior to the appointment at the respective Visa Application Center",
+        "Visa fees are nonrefundable in any cases once applied",
+        "All the documents should be translated to English"
+    ]
+}

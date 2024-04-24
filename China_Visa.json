@@ -1,0 +1,34 @@
+{
+    "Country": "China Visa",
+    "Official_Name": "China Visa",
+    "Country_Description": "<b>China</b> is a country in East Asia that is officially known as the People's Republic of China. With a population of over 1.4 billion people, it is the world's most populated country. China is known for its architectural wonders such as the Great Wall and Forbidden City, its staggering variety of delicious food, its martial arts, and its long history of invention. More than just tea and temples, China is a fast-changing mix of the ultra-modern and the very ancient.",
+    "Additional_Description": "<br><h5>Application Methods and Processing Time</h5><p>If an applicant cannot come in person, he or she may entrust a relative, friend, or travel/visa agent to come and submit the application on his/her behalf. No appointment is necessary for visa applications. The Consulate does not accept visa applications by mail.</p><p>It normally takes 4 working days to process the visa application</p><br><h5>Validity and Duration of Stay</h5><p>Unless the applicant specifies his or her request on the application form and obtains approval from the consular officers, the validity of the visa is generally 3 months, with the duration of stay being up to 30 days.</p>",
+    "Required_Documents": [
+        "Original passport with minimum 06 months validity",
+        "Passport should have at least 02 blank pages",
+        "Copy of UAE Residence Visa valid at least 90 days",
+        "02 White background passport size photographs",
+        "No objection letter from the company",
+        "Valid Trade License copy - (for China Business Visa)",
+        "An invitation from CHINA with a copy of the inviter's license - (for China Business Visa)"
+    ],
+    "Supporting_Documents": {
+        "": [
+            "Hotel reservation or proof of other accommodation",
+            "Proof of flight ticket booking or flight reservation including return",
+            "Proof of valid travel or international health insurance",
+            "Employment Labor Contract / agreement"
+        ]
+    },
+    "Fineway_Assistance": [
+        "Pick-up and deliver your documents right from your doorsteps",
+        "Detailed guidance with documentation that will reduce the chances of rejection",
+        "Filing of Visa Application Form",
+        "No embassy visit and no appointment"
+    ],
+    "General_Conditions": [
+        "The consular officers remain the right to make the final decision on your application and ask the applicants to provide more supporting documents",
+        "The passport information pages should include the pages with the photograph and the issue and expiry dates of this passport, as well as any amendment pages",
+        "All the documents are expected to be prepared neatly in the size of the application form"
+    ]
+}

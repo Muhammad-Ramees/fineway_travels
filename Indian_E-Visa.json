@@ -1,0 +1,33 @@
+{
+    "Country": "Indian E-Visa",
+    "Official_Name": "Indian E-Visa",
+    "Country_Description": "<b>India</b> is located in Southern Asia bordering the Arabian Sea and the Bay of Bengal. Neighbouring countries include Bangladesh, Bhutan, Burma, China, Nepal, and Pakistan. India is a member of the Asia-Pacific Trade Agreement (APTA) and the South Asian Association for Regional Cooperation (SAARC).",
+    "Additional_Description": "<br><h5>Indian e-Visa Eligible Countries</h5><p>Albania, Andorra, Anguilla, Antigua & Barbuda, Argentina, Armenia, Aruba, Australia, Austria, Bahamas, Barbados, Belgium, Belize, Bolivia, Bosnia & Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Cambodia, Canada, Cape Verde, Cayman Island, Chile, China, China- SAR Hongkong, China- SAR Macau, Colombia, Comoros, Cook Islands, Costa Rica, Cote d'lvoire, Croatia, Cuba, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, East Timor, Ecuador, El Salvador, Eritrea, Estonia, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guyana, Haiti, Honduras, Hungary, Iceland, Indonesia, Ireland, Israel, Jamaica, Japan, Jordan, Kenya, Kiribati, Laos, Latvia, Lesotho, Liberia, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Malta, Marshall Islands, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Montserrat, Mozambique, Myanmar, Namibia, Nauru, Netherlands, New Zealand, Nicaragua, Niue Island, Norway, Oman, Palau, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Republic of Korea, Republic of Macedonia, Romania, Russia, Saint Christopher and Nevis, Saint Lucia, Saint Vincent & the Grenadines, Samoa, San Marino, Senegal, Serbia, Seychelles, Singapore, Slovakia, Slovenia, Solomon Islands, South Africa, Spain, Sri Lanka, Suriname, Swaziland, Sweden, Switzerland, Taiwan, Tajikistan, Tanzania, Thailand, Tonga, Trinidad & Tobago, Turks & Caicos Island, Tuvalu, UAE, Ukraine, United Kingdom, Uruguay, USA, Vanuatu, Vatican City-Holy See, Venezuela, Vietnam, Zambia and Zimbabwe.</p><br><h5>Below are the prerequisites before you applying Indian e-Visa</h5><ul class='feature-list'><liApplicant's passport should have at least six months validity at the time of making application for grant of e-Visa</li><li>International Travelers should have return tickets or onward journey ticket, with sufficient money to spend during his/her stay in India</li><li>International Travelers having Pakistani Passport or Pakistani origin may please apply for regular Visa at Indian Mission</li><li>Not available to International Travel Document Holders other than Passport</li></ul>",
+    "Required_Documents": [
+        "Scanned Bio Page of the passport showing the Photograph and Details - (For e-Tourist Visa)",
+        "Passport photograph (not older than 6 months), with a white background - (For e-Tourist Visa)",
+        "Scanned Bio Page of the passport showing the Photograph and Details - (For e-Business Visa)",
+        "Passport photograph (not older than 6 months), with a white background - (For e-Business Visa)",
+        "Copy of Business Card - (For e-Business Visa)",
+        "Letter of invitation if applicable from Indian parties which wish you conduct the business (optional) - (For e-Business Visa)",
+        "Scanned Bio Page of the passport showing the Photograph and Details - (For e-Medical Visa)",
+        "Passport photograph (not older than 6 months), with a white background - (For e-Medical Visa)",
+        "Copy of Letter from the Hospital concerned in India on its letterhead which includes the date / tentative date which admission has been suggested - (For e-Medical Visa)"
+    ],
+    "Supporting_Documents": {
+        "": [
+            "Not Applicable"
+        ]
+    },
+    "Fineway_Assistance": [
+        "Detailed guidance with documentation that will reduce the chances of rejection",
+        "Filing of Visa Application Form",
+        "One-to-one attention from a dedicated staff member who will guide you through the entire application procedure"
+    ],
+    "General_Conditions": [
+        "E-Visa fee once submitted is non-refundable as the fee is for processing of the application and is not dependent on either Grant or Rejection of Electronic Travel Authorization",
+        "Biometric details of the applicant will be mandatorily captured at Immigration on arrival in India",
+        "E-Visa is non-extendable and non-convertible",
+        "You must travel on the Passport which you have applied for e-Visa"
+    ]
+}

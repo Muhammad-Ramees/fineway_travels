@@ -1,0 +1,38 @@
+{
+    "Country": "Iceland Visa - Schengen",
+    "Official_Name": "Iceland Visa - Schengen",
+    "Country_Description": "<b>Iceland</b> is an island nation located in Northern Europe between the Greenland Sea and the Northern Atlantic Ocean. It is northwest of the United Kingdom and has a strategic location between Greenland and Europe. Iceland is volcanically and geologically active with hot springs, geysers, and icefields.<p>Widely known as “<b>The Land of Fire and Ice</b>” Iceland is home to some of the largest glaciers in Europe, and some of the world's most active volcanoes. Iceland is also the land of light and darkness. Long summer days with near 24-hours of sunshine are offset by short winter days with only a few hours of daylight.</p>",
+    "Required_Documents": [
+        "Recent passport photographs showing full face on a clear white background (35 mm X 45 mm)",
+        "The passport must be valid a minimum of six months after your intended departure from the territory of the Schengen States",
+        "UAE residence permit must be valid for three months after the departure from the Schengen area",
+        "Original personal bank account statement for the last three months signed and stamped by the bank",
+        "NOC from the company (should be mentioned designation, date of joining & salary paid)",
+        "Sponsored family members (spouses, students etc.) have to enclose a copy of the original birth and marriage certificate",
+        "Receipt of application fee payment"
+    ],
+    "Supporting_Documents": {
+        "For Tourism": [
+            "Proof of accommodation (i.e. valid and existing hotel booking, etc.)",
+            "Proof of flight ticket booking or flight reservation including return",
+            "International health insurance covering the entire territory of all Schengen member states with a minimum coverage of € 30.000",
+            "A detailed daily program of your stay"
+        ],
+        "For Business": [
+            " A cover letter from your organization",
+            "Invitation letter from the company or business partner in Iceland"
+        ]
+    },
+    "Fineway_Assistance": [
+        "Detailed guidance with documentation that will reduce the chances of rejection",
+        "Filing of Visa Application Form",
+        "Make an appointment to submit your documents at the appropriate visa application center",
+        "Making arrangements for flight and hotel booking (Only for visa purpose)",
+        "One-to-one attention from a dedicated staff member who will guide you through the entire application procedure"
+    ],
+    "General_Conditions": [
+        "Please reach 15 minutes prior to the appointment at the respective Visa Application Center",
+        "Visa fees are nonrefundable in any cases once applied",
+        "All the documents should be translated to English"
+    ]
+}

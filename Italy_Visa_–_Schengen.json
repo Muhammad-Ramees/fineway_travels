@@ -1,0 +1,38 @@
+{
+    "Country": "Italy Visa – Schengen",
+    "Official_Name": "Italy Visa – Schengen",
+    "Country_Description": "<b>Italy</b> is a country located in Southern Europe comprising the boot-shaped Italian peninsula and a number of islands including Sicily and Sardinia. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence, with Renaissance masterpieces such as Michelangelo’s 'David' and Brunelleschi's Duomo; Venice, the city of canals; and Milan, Italy’s fashion capital. Neighboring countries include Austria, France, Holy See, San Marino, Slovenia, and Switzerland.",
+    "Required_Documents": [
+        "Your passport valid for at least 6 months beyond the return date is required. Your passport must have at least two blank pages",
+        "Recent color passport photograph (35–40mm in width), no more than 6-months old",
+        "Copy of UAE Residence Visa valid at least 90 days from the intended return date",
+        "Original personal bank account statement for the last three months signed and stamped by the bank",
+        "NOC Letter from the company should mention designation, date of joining, salary paid, the purpose of visit, and financial arrangements"
+    ],
+    "Supporting_Documents": {
+        "For Tourism": [
+            "Proof of accommodation (i.e. valid and existing hotel booking, etc.)",
+            "Proof of flight ticket booking or flight reservation including return",
+            "International health insurance covering the entire territory of all Schengen member states with a minimum coverage of € 30.000",
+            "Sponsored family members (spouses, students etc.) have to enclose a copy of the original birth and marriage certificate including an English translation",
+            "Employment Labor Contract / agreement",
+            "Copy of a valid trade license"
+        ],
+        "For Business": [
+            "Invitation letter from the Italian company with copy of an ID/Passport of the signatory bearing the signature",
+            "Copy of “Chamber of Commerce Registration“ of the Italian company issued in the last 6 months"
+        ]
+    },
+    "Fineway_Assistance": [
+        "Detailed guidance with documentation that will reduce the chances of rejection",
+        "Filing of Visa Application Form",
+        "Make an appointment to submit your documents at the appropriate visa application center",
+        "Making arrangements for flight and hotel booking (Only for visa purpose)",
+        "One-to-one attention from a dedicated staff member who will guide you through the entire application procedure"
+    ],
+    "General_Conditions": [
+        "Please reach 15 minutes prior to the appointment at the respective Visa Application Center",
+        "Visa fees are nonrefundable in any cases once applied",
+        "All the documents should be translated to English"
+    ]
+}
