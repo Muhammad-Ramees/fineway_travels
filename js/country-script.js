@@ -1,3 +1,43 @@
+// Define the form submission logic
+function setupFormSubmission () {
+  // Add form submission logic
+  document
+    .getElementById('submit-to-google-sheet')
+    .addEventListener('submit', function (e) {
+      e.preventDefault() // Prevent default form submission
+
+      // Fetch form data
+      var formData = new FormData(this)
+
+      // Get the page name from the URL hash
+      var pageName = window.location.hash.substring(1)
+
+      // Add page name to form data
+      formData.append('page', pageName)
+      console.log(formData)
+      // Send form data to Google Apps Script
+      fetch(
+        'https://script.google.com/macros/s/AKfycbzLUriT0Om-iAbdPEn4HHUfb3Bqvh7Kv_RzpjXr-fn_H1uJzx9yoeM9fuQ97M9VNZDT/exec',
+        {
+          method: 'POST',
+          body: formData
+        }
+      )
+        .then(function (response) {
+          if (response.ok) {
+            console.log('Form submitted successfully')
+            // Show success message or perform other actions
+          } else {
+            console.error('Form submission failed')
+            // Show error message or perform other actions
+          }
+        })
+        .catch(function (error) {
+          console.error('Error submitting form:', error)
+          // Show error message or perform other actions
+        })
+    })
+}
 document.addEventListener('DOMContentLoaded', function () {
   // Function to update content based on hash fragment
   function updateContent () {
@@ -220,10 +260,9 @@ document.addEventListener('DOMContentLoaded', function () {
                               <div class="booking-form">
 
                                   <!-- Contact Form -->
-                                  <form method="post" action="sendemail.php" id="contact-form">
-
+                                  <form id="submit-to-google-sheet" name="submit-to-google-sheet">
                                       <div class="form-group">
-                                          <input type="text" name="username" placeholder="Full Name" required>
+                                          <input type="text" name="name" placeholder="Full Name" required>
                                           <span class="icon fal fa-user fa-fw"></span>
                                       </div>
 
@@ -237,12 +276,23 @@ document.addEventListener('DOMContentLoaded', function () {
                                           <span class="icon fal fa-phone fa-fw"></span>
                                       </div>
                                       <div class="form-group">
-                                          <button class="theme-btn send-btn"><span class="txt">Send Now <i
+                                          <button type="submit" class="theme-btn send-btn"><span class="txt">Send Now <i
                                                       class="fa fa-angle-right"></i></span></button>
                                       </div>
 
                                   </form>
-
+                                  <div style="display:none; center;font-size: xx-large;font-weight: bolder; margin-bottom: 20px"
+                                  id="sending-message">
+                                  Please wait, Your message is being sent...
+                              </div>
+                              <div style="display:none; center;font-size: xx-large;font-weight: bolder; margin-bottom: 20px"
+                              id="sending-message">
+                              Please wait, Your message is being sent...
+                          </div>
+                          <div style="display:none; center;font-size: xx-large;font-weight: bolder; margin-bottom: 20px"
+                              id="success-message">
+                              Your message has been sent. Thank you!
+                          </div>
                               </div>
                               <!-- End Booking Form -->
 
@@ -271,10 +321,12 @@ document.addEventListener('DOMContentLoaded', function () {
               </div>
 
           </div>
+          
       </section>
      
-  </script>
             `
+          // Setup form submission logic after content has been updated
+          setupFormSubmission()
         })
         .catch(error => console.error('Error fetching country Details:', error))
     }
